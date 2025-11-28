@@ -17,7 +17,7 @@ const __dirname = path.dirname(__filename);
 const app = express();
 
 // One CORS registration is enough
-app.use(cors({ origin: "https://dev-frontend-smoky.vercel.app/" }));
+app.use(cors({ origin: "https://dev-frontend-smoky.vercel.app" }));
 app.use(bodyParser.json({ limit: "5mb" }));
 
 /**
